@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://kit.fontawesome.com/9ecb577212.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+      <div id="bg-img">
+        <div class="container">
+          <nav>
+            <h3>Portfolio</h3>
+            <ul id="sideMenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#blog">Blogs</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#certificates">Certificates</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"></i>
+          </nav>
+          <div class="intro-text">
+          <h1> Hey viewer!</h1>
+          <h2>I am <span class="name-typed"></span></h2>
+          <h3><span class="h3">Reading Software Engineer(Hons)</span></h3>
+        </div>
+        </div>
+          <!------- About ------->
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col1">
+                <img src="profile1.jpg" alt="">
+              </div>
+              <div class="about-col2">
+                <h2 class="sub-title">About me</h2> <br>
+                <p class="paragraph">As a third-year undergraduate in Software Engineering, I offer
+                  analytical prowess, strong problem-solving abilities, and a
+                  collaborative team spirit. My dedication and adaptability make me
+                  an asset to any company, am committed to being loyal to those
+                  who believe in me and being responsible for any task assigned to
+                  me. I am eager to contribute to a professional setting through an
+                  internship in Software Engineering, where I can apply and enhance
+                  my skills while contributing to meaningful projects.</p>
+
+                <div class="about-tab-title">
+                  <p class="tab-link active-tab" onclick="openContent('skills')">Skills</p>
+                  <p class="tab-link" onclick="openContent('education')">Education</p>
+                </div>
+
+                <div class="tab-content active-content" id="skills">
+                  <ul>
+                    <div class="skill-col">
+                      <li>HTML/CSS</li>
+                      <li>Javascript</li>
+                      <li>Java</li>
+                      <li>Python</li>
+                      <li>MYSQL</li>
+                    </div>  
+                    <div class="skill-col">
+                      <li>MongoDB</li>
+                      <li>NodeJS</li>
+                      <li>ReactJS</li>
+                      <li>Rest Api</li>
+                    </div>  
+                      
+                  </ul>
+                </div>
+
+                <div class="tab-content" id="education">
+                  <ul>
+                    <li><h3><span>Open University of Sri Lanka</span> <br> &nbsp; Bachelor of Software Engineering (Hons) - 2021 present</h3></li> 
+                    <br>
+                    <li><h3><span>Al-Azhar College Hemmathagama - (2005-2020)</span> <br> &nbsp; Advanced Level:- Physical Science</h3>
+                    &nbsp;&nbsp; Combined Maths- C <br> &nbsp;&nbsp; Chemistry - C <br> &nbsp;&nbsp; Physics - S </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------- Blog ------->
+        <div id="blog">
+          <div class="container">
+            <h2 class="sub-title">Blogs</h2>
+            <div class="blog-list">
+              <div>
+                <h3>Marketing analysis of online business and operational management</h3>
+                <p>Nowadays online market is trending all over the world. Most of the people over 18 ages are
+                   started online business without gender differentiation, it may be small and large business...</p>
+                <a href="https://medium.com/@faizansafwan075/marketing-analysis-for-online-business-and-their-operational-management-1f58965eb92">Learn More</a>
+              </div>
+              <div>
+                <h3>Need of exercise and sport</h3>
+                <p>Exercise and sports are most important part of our life. It will help to control our mind, body
+                   and health well, as well as it will be felt our mind better and reduce the diseases...</p>
+                <a href="https://medium.com/@faizansafwan075/why-do-we-need-exercises-or-sports-ca1c62d329a9">Learn More</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!------- Projects ------->
+        <div id="project">
+          <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="project-list">
+              <div class="project">
+                <img src="project-img/img-mobile.jpg" alt="">
+                <div class="disc">
+                  <h3>Travel Management Mobile Appliction</h3>
+                  <a href="https://github.com/faizansafwan/Travel-Management-Mobile-Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="project-img/img-pc.jpg" alt="">
+                <div class="disc">
+                  <h3>Car Rental Service</h3>
+                  <a href="https://github.com/faizansafwan/Car-Rental-Service"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <img src="project-img/img-pc1.jpg" alt="">
+                <div class="disc">
+                  <h3>Student Registration</h3>
+                  <a href="https://github.com/faizansafwan/student-registration"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <div class="project">
+                <img src="project-img/pic-pc2.jpg" alt="">
+                <div class="disc">
+                  <h3>Guidance for Goverment Higher Education</h3>
+                  <a href="https://github.com/AmnaAroos2000/Student_Portal"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate -->
+        <div id="certificates">
+          <div class="container">
+            <h2 class="sub-title">Certificates</h2>
+            <div class="certificate-list">
+
+              <img src="certificate/certificate in web design.jpg" alt="">
+              <img src="certificate/certificate in front end design.jpg" alt="">
+              <img src="certificate/certificate in server side scripting.jpg" alt="">
+              <img src="certificate/Python_for_Beginners_E-Certificate.jpg" alt="">
+              <img src="certificate/Python_Programming_E-Certificate.jpg" alt="">
+              <img src="certificate/freecode camp certificate.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-col1">
+                <h2 class="sub-title">Contact</h2>
+                <p><i class="fa-regular fa-envelope"></i> fai.saf010@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +94 76 8084843</p>
+                <div class="social-media">
+                  <a href="https://web.facebook.com/mohammed.faizan.374549"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/faizan_safwan?igsh=MXR0YW9xNmwxYmxzOA=="><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/faizansafwan-20000"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/faizansafwan?tab=overview"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Faizan Resume.pdf" download class="btn">Download Resume</a>
+                
+              </div>
+              <div class="contact-col2">
+                <form action="">
+                  <input type="text" name="name" placeholder="Name" required>
+                  <input type="email" name="email" placeholder="abc@gmail.com" required>
+                  <textarea name="message" id="" rows="6" placeholder="Type your message..."></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright &copy; by Faizan. </p>
+          </div>
+        </div>
+      
+      </div>
+        
+        <script src="Jscript.js"></script>
+    </body>
+</html>
